@@ -13,7 +13,7 @@ Generate Ethereum smart contracts that appear vulnerable but actually trap attac
 
 ## Quick Start
 ```bash
-git clone https://github.com/yourusername/smart-contract-honeypot-generator.git
+git clone https://github.com/Devamstark/DevXEthereum.git
 cd smart-contract-honeypot-generator
 npm install
 npx hardhat test
