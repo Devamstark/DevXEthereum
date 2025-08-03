@@ -1,0 +1,16 @@
+{
+  "name": "smart-contract-honeypot-generator",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network localhost",
+    "monitor": "node scripts/monitor.js"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.6",
+    "ethers": "^5.6.5",
+    "hardhat": "^2.9.3"
+  }
+}
